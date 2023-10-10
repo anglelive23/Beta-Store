@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="الموقع الرسمى الخاص بنسخة Beta Ultimate وكل ما يخص النسخة من تحديثات ومميزات."
+		/>
+		<!-- css -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/files.css" />
+		<!-- bootstrap icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
+		<!-- animation on scroll -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<title>Beta Ultimate</title>
+		<!-- favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!-- Navbar -->
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+				<div class="container-fluid">
+					<a href="index.html"
+						><img src="images/logo.png" alt="" width="60" height="60"
+					/></a>
+					<!-- <img src="images/logo.png" alt="" width="60" height="60" /> -->
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="index.html"
+									>الرئيسية</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active disabled" href="#">مميزات النسخة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="videos.html">فيديوهات النسخة</a>
+							</li>
+							<!-- Drop down list for updates -->
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdown"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									>تحديثات النسخة</a
+								>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li>
+										<a class="dropdown-item disabled" href="#">تحديث #1</a>
+									</li>
+									<li>
+										<a class="dropdown-item disabled" href="#">تحديث #2</a>
+									</li>
+									<li><hr class="dropdown-divider" /></li>
+									<li>
+										<a class="dropdown-item disabled" href="#">تحديث #3</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="contact-us.html"
+									tabindex="-1"
+									aria-disabled="true"
+									>تواصل معنا</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- Intro -->
+			<section class="container-fluid width__control">
+				<div class="intro__flex mt-5">
+					<img
+						class="presentation__image"
+						src="images/presentation/intro-ar.png"
+						alt=""
+					/>
+				</div>
+				<div class="block">
+					<p>
+						السلام عليكم ورحمة الله وبركاته , ان الهدف من بدء مشروع Beta
+						Ultimate كان ولا زال مساعدة العملاء في بدء خادمهم الخاص دون القلق من
+						وجود مشاكل او ثغرات قد تعيق تطور وتقدم الخادم لذلك فقد عملنا بكل جد
+						على التأكد من خلو الملفات من الثغرات الخطيرة المنتشرة بكثرة في
+						الملفات المجانية المنتشرة على الساحة وايضا حرصنا على جعل الملفات
+						مواكبة للتحديثات الرسمية ( اسلحة - دروع - تسريحات - ازياء - دواب -
+						مرافقين ) كما سنحرص على جعلها مواكبة لكافة التحديثات الرسمية من خلال
+						التحديثات الدورية للارتقاء بمستوى الملفات وتوفير متطلبات عملائنا من
+						خلال اضافة الانظمة الاكثر شيوعا والاكثر طلبا فى الخوادم الخاصة.
+					</p>
+				</div>
+			</section>
+
+			<!-- Presentation -->
+			<section class="container-fluid width__control">
+				<div class="intro__flex">
+					<img
+						class="presentation__image"
+						src="images/presentation/Presentation-ar.png"
+						alt=""
+					/>
+					<p>ستجد هنا شرح لمميزات النسخة.</p>
+				</div>
+
+				<div class="block">
+					<h2 class="paragraph__heading">معلومات عن السورس</h2>
+					<p>
+						النسخة تعمل على سورس Marty المشهور ولكن بها العديد من الأضافات التى
+						تتيح لك الحصول على سيرفر كامل يمكنك من بدء مشروعك بأسرع وقت كما انه
+						تمت معالجة الكثير من المشاكل المشهورة فى ماتين2 مثل (Memory leak) و
+						(Item Dump Exploit) وغيرها من المشاكل الكثيرة التى قد تؤدى الى تخريب
+						الخادم بالكامل.
+					</p>
+				</div>
+
+				<div class="block">
+					<h2 class="paragraph__heading">سورس السيرفر</h2>
+					<p>
+						بُنى سورس السيرفر على اخر اصدار من ++C كما قد تم التخلص تماماََ من
+						المكتبات الغير مستخدمة لجعل النظام سلس وفيما يلي سرد لأهم مميزات
+						الملفات.
+					</p>
+				</div>
+
+				<ul>
+					<li class="list__item">
+						1- شخصيات اللعبة الرئيسية (محارب - نينجا - سورا - شامان - ليكانر) مع
+						امكانية تعطيل شخصية الليكانر.
+					</li>
+					<li class="list__item">2- اقصى مستوى هو المستوى 120.</li>
+					<li class="list__item">
+						3- اقصى مستوى لنقاط الوضع هو المستوى 90 ( بإمكانك زيادة المستوى من
+						خلال gen_settings.py ).
+					</li>
+					<li class="list__item">
+						4- اقصى عدد مابات مصرح فيه في الكور الواحد هو 32 ماب.
+					</li>
+					<li class="list__item">5- إصلاح مشكلة تدبيل الأحبال تماماّ.</li>
+					<li class="list__item">
+						6- اقصي عدد للشخصيات داخل الحساب هو 5 شخصيات.
+					</li>
+					<li class="list__item">
+						7- نظام النرد الخاص بالمجموعة حيث سيتم اجراء قرعة على الأدوات التى
+						تسقط من الزعيم لتحديد الفائز بكل أداة
+					</li>
+					<li class="list__item">8- عدد صفحات نافذة الجرد هو 4 صفحات.</li>
+					<li class="list__item">
+						9- نظام الدواب الحديث حيث ستقوم دابتك بمرافقتك دائما ولن تحتاج الى
+						اعادة استدعائها لامتطائها.
+
+						<div class="flex__image">
+							<img
+								class="w-75 image__height"
+								src="images/presentation/1.png"
+								alt=""
+								title="نظام الدواب المطور"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						10- نظام الأزياء كامل ( دروع - تسريحات - اسلحة - وشاح - دابة -
+						هالة).
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/2.png"
+								alt=""
+								title="أزياء الهالة"
+							/>
+							<img
+								class="w-50 image__height"
+								src="images/presentation/3.png"
+								alt=""
+								title="أزياء الهالة"
+							/>
+							<img
+								class="w-50 image__height"
+								src="images/presentation/4.png"
+								alt=""
+								title="أزياء الهالة"
+							/>
+						</div>
+					</li>
+
+					<li class="list__item">
+						11- ستلمع الأداة الجديدة في قائمة الجرد عند (التقاطها - المتاجرة بها
+						- شرائها).
+					</li>
+					<li class="list__item">12- اضافة مهارات الصد والدفع.</li>
+					<li class="list__item">
+						13- اضافة نظام الرفيق مع وجود عدد 9 رفيق.
+						<div class="flex__image">
+							<img src="images/presentation/5.png" alt="" title="نظام الرفيق" />
+						</div>
+					</li>
+					<li class="list__item">
+						14- نظام معلومات الوحش ( مستوى - عدائي).
+						<div class="flex__image">
+							<img
+								src="images/presentation/6.png"
+								alt=""
+								title="نظام معلومات الوحش"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						15- تم الغاء نظام الوون نظراََ لوجود العديد من الثغرات به واستبداله
+						بنظام اليانغ اللا محدود.
+						<div class="flex__image">
+							<img
+								src="images/presentation/7.png"
+								alt=""
+								title="اليانغ اللا محدود"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						16- عملة الغايا.
+						<div class="flex__image">
+							<img src="images/presentation/8.png" alt="" title="عملة الغايا" />
+						</div>
+					</li>
+					<li class="list__item">
+						17- نظام جعبة السهام.
+						<div class="flex__image">
+							<img src="images/presentation/9.png" alt="" title="جعبة السهام" />
+						</div>
+					</li>
+					<li class="list__item">
+						18- نظام التشكيل.
+						<div class="flex__image">
+							<img
+								src="images/presentation/10.png"
+								alt=""
+								title="نظام التشكيل"
+							/>
+						</div>
+					</li>
+					<li class="list__item">19- نظام تحويل علاوة الزي.</li>
+					<li class="list__item">
+						20- نظام تغيير القناة دون الحاجة للذهاب لصفحة تسجيل الدخول.
+					</li>
+					<li class="list__item">
+						21- نظام رؤية دم اللاعب وايضا تستطيع رؤية التعويذة التى يرتديها
+						اللاعب.
+						<div class="flex__image">
+							<img
+								class="w-75"
+								src="images/presentation/11.png"
+								alt=""
+								title="رؤية دم اللاعب"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						22- الغابة السحرية كاملة.
+						<div class="flex__image">
+							<img
+								class="w-75"
+								src="images/presentation/12.png"
+								alt=""
+								title="الغابة السحرية"
+							/>
+						</div>
+					</li>
+					<li class="list__item">23- تستطيع استبدال اماكن الادوات مع بعضها.</li>
+					<li class="list__item">
+						24- سيظهر لقب قائد بجوار قائد الرابطة.
+						<div class="flex__image">
+							<img
+								src="images/presentation/13.png"
+								alt=""
+								title="قائد الرابطة"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						25- خيار جديد في المجموعة يتيح لك تقسيم الخبرة بشكل متساوِِ بين
+						اعضاء المجموعة بغض النظر عن فرق المستوى.
+						<div class="flex__image">
+							<img
+								src="images/presentation/14.png"
+								alt=""
+								title="توزيع متساوِِ"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						26- نظام التعويذات كامل.
+						<div class="flex__image">
+							<img
+								src="images/presentation/15.png"
+								alt=""
+								title="نظام التعويذات"
+							/>
+						</div>
+					</li>
+					<li class="list__item">27- تفعيل ميزة مقاومة ضد نصف البشر.</li>
+					<li class="list__item">
+						28- تفعيل نظام كسر الدفاع ( ستستطيع تجاوز دفاع الخصم ان كان لديك
+						ميزة كسر ضد دفاع الخصم ).
+						<div class="flex__image">
+							<img
+								src="images/presentation/16.png"
+								alt=""
+								title="كسر الدفاعات"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						29- نظام ارض المعركة كامل.
+						<div class="flex__image">
+							<img
+								class="w-25"
+								src="images/presentation/18.png"
+								alt=""
+								title="أرض المعركة"
+							/>
+							<img
+								class="w-25"
+								src="images/presentation/17.png"
+								alt=""
+								title="أرض المعركة"
+							/>
+							<img
+								class="w-25"
+								src="images/presentation/19.png"
+								alt=""
+								title="أرض المعركة"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						30- كهف ميلي كامل.
+						<div class="flex__image">
+							<img
+								class="w-75"
+								src="images/presentation/20.png"
+								alt=""
+								title="ملكة التنانين ميلي"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						31- نظام البف المساعد.
+						<div class="flex__image">
+							<img
+								src="images/presentation/21.png"
+								alt=""
+								title="البف المساعد"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						32- حدث صيد الأسياد.
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/22.png"
+								alt=""
+								title="صيد الأسياد"
+							/>
+						</div>
+						عند تجميعك لعدد معين من النقاط من زعيم معين تستطيع استبدالها بصندوق
+						من عند الشخصية المساعدة عبد-بيه, كما يوجد لائحة بترتيب اعلى اللاعبين
+						في جمع النقاط.
+						<div class="flex__image">
+							<img
+								class="w-50"
+								src="images/presentation/30.png"
+								alt=""
+								title="صيد الأسياد"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						33- حدث الربيع (عند تفعيل الحدث سيتم نزول بيض المفاجئات في المدن
+						الرئيسية).
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/23.png"
+								alt=""
+								title="حدث الربيع"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						34- نظام الألقاب المطور.
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/24.png"
+								alt=""
+								title="نظام الألقاب"
+							/>
+						</div>
+					</li>
+					<li class="list__item">35- تفعيل خانة القفاز في قائمة الجرد.</li>
+					<li class="list__item">
+						36- نظام الروح كامل (تستطيع انجاز مهمة الى اه-يو للحصول على علبة
+						الروح).
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/25.png"
+								alt=""
+								title="نظام الروح"
+							/>
+						</div>
+						يتم تطوير الروح باستخدام مخطوطة الروح ومخطوطة الروح(100%).
+						<div class="flex__image">
+							<img
+								class="w-50"
+								src="images/presentation/26.png"
+								alt=""
+								title="نظام الروح"
+							/>
+							<img
+								class="w-50"
+								src="images/presentation/27.png"
+								alt=""
+								title="نظام الروح"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						37- حدث القبض على الملك.
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/28.png"
+								alt=""
+								title="القبض على الملك"
+							/>
+						</div>
+						كما يوجد لائحة لترتيب اللاعبين.
+						<div class="flex__image">
+							<img
+								class="w-75 image__height"
+								src="images/presentation/29.png"
+								alt=""
+								title="القبض على الملك"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						38- نظام الهالة كامل مع وجود 7 اشكال مختلفة للهالة.
+						<div class="flex__image">
+							<img
+								src="images/presentation/73.png"
+								alt=""
+								title="أزياء الهالة"
+							/>
+						</div>
+						تستطيع تطوير الهالة الى المستوى 250.
+						<div class="flex__image">
+							<img
+								src="images/presentation/31.png"
+								alt=""
+								title="أزياء الهالة"
+							/>
+						</div>
+						تستطيع نقل علاوة احد الاكسسوارات الى ملابس الهالة.
+						<div class="flex__image">
+							<img
+								src="images/presentation/32.png"
+								alt=""
+								title="نقل علاوات الهالة"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						39- نظام خيارات الدردشة (يتيح لك النظام الغاء ظهور نوع معين من
+						الرسائل فى الدردشة).
+						<div class="flex__image">
+							<img
+								src="images/presentation/33.png"
+								alt=""
+								title="خيارات الدردشة"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						40- نظام الميزة 6-7 الرسمي الجديد.
+						<div class="flex__image">
+							<img src="images/presentation/34.png" alt="" title="الميزة6-7" />
+						</div>
+					</li>
+					<li class="list__item">
+						41- برج الزودياك كامل.
+						<div class="flex__image">
+							<img
+								class="w-100"
+								src="images/presentation/35.png"
+								alt=""
+								title="برج الزودياك"
+							/>
+						</div>
+						تستطيع استبدال الرموز عند الراهب ميلبون.
+						<div class="flex__image">
+							<img
+								class="w-100 image__height"
+								src="images/presentation/36.png"
+								alt=""
+								title="استبدال الرموز"
+							/>
+						</div>
+						وعند الوصول الى الطابق الأخير تستطيع الشراء من متجر زودياك.
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/37.png"
+								alt=""
+								title="الطابق الأخير"
+							/>
+						</div>
+						سيتم شحن النجم الروحى بواقع 1 نجم روحى/دقيقة ( يمكن تغيير العدد او
+						الوقت ) كما يمكنك ايضا شحن النجم الروحى باستخدام مخطوطات الروح
+						المختلفة.
+						<div class="flex__image">
+							<img
+								class="w-50"
+								src="images/presentation/71.png"
+								alt=""
+								title="مخطوطة الروح"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						42- تفعيل ميزة Discord Rich Presence.
+						<div class="flex__image">
+							<img src="images/presentation/38.png" alt="" title="Discord" />
+						</div>
+					</li>
+					<li class="list__item">
+						43- مساعد السحر.
+						<div class="flex__image">
+							<img
+								class="w-75 image__height"
+								src="images/presentation/39.png"
+								alt=""
+								title="مساعد السحر التلقائي"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						44- تستطيع عرض الأداة لرؤية شكلها.
+						<div class="flex__image">
+							<img
+								src="images/presentation/40.png"
+								alt=""
+								title="عرض الأدوات"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						45- تعديلات على شاشة التحميل وسيظهر ايضا نصائح عامة عن اللعبة في
+						شاشة التحميل.
+						<div class="flex__image">
+							<img
+								class="w-100 image__height"
+								src="images/presentation/41.png"
+								alt=""
+								title="شاشة التحميل"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						46- مرشح الألتقاط التلقائي (يتيح لك فرصة تحديد نوع الأدوات التى ترغب
+						في التقاطها تلقائيا).
+						<div class="flex__image">
+							<img
+								src="images/presentation/42.png"
+								alt=""
+								title="مرشح الألتقاط التلقائي"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						47- تستطيع رؤية محتويات الصناديق.
+						<div class="flex__image">
+							<img
+								src="images/presentation/43.png"
+								alt=""
+								title="محتويات الصناديق"
+							/>
+						</div>
+						وايضا تستطيع معرفة ماهى الصناديق التى تحتوى على اداة محددة.
+						<div class="flex__image">
+							<img
+								src="images/presentation/44.png"
+								alt=""
+								title="صناديق الأداة"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						48- إمكانية فتح متاجر الشخصيات الاساسية عن بعد.
+						<div class="flex__image">
+							<img
+								src="images/presentation/45.png"
+								alt=""
+								title="متاجر عن بعد"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						48- اختصارات جديدة في قائمة الجرد.
+						<div class="flex__image">
+							<img
+								src="images/presentation/46.png"
+								alt=""
+								title="اختصارات قائمة الجرد"
+							/>
+						</div>
+					</li>
+
+					<li class="list__item">
+						49- إصلاح مشكلة تراكم التأثيرات الخاصة باللعبة في حالة ترك اللعبة في
+						الخلفية وعدم اللعب لفترة طويلة.
+					</li>
+					<li class="list__item">
+						50- سد العديد من ثغرات Memory leak في سورس الكلاينت.
+					</li>
+					<li class="list__item">51- سد ثغرة في بف قائد المجموعة.</li>
+					<li class="list__item">
+						52- تعديل Race height of Actors ( تعديل طول الشخصيات والدواب ليتلائم
+						مع طول الدابة ). بإمكانك تخصيص طول معين للدواب من خلال ملف
+						race_height.txt فى مجلد root.
+						<div class="flex__image">
+							<img
+								class="w-75 image__height"
+								src="images/presentation/61.png"
+								alt=""
+								title="Race actor of mount"
+							/>
+							<img
+								class="w-50 image__height"
+								src="images/presentation/62.png"
+								alt=""
+								title="Race actor of player"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						53- تعديل ثغرة تدمير للأدوات كانت تؤدى الى فصل الشنل تماماََ.
+					</li>
+					<li class="list__item">
+						54- تعديل شامل على نافذة التفاصيل.
+						<div class="flex__image">
+							<img
+								src="images/presentation/47.png"
+								alt=""
+								title="نافذة التفاصيل"
+							/>
+						</div>
+					</li>
+					<li class="list__item">55- تحسين سرعة تحميل اللعبة.</li>
+					<li class="list__item">
+						56- اضافة خيار يتيح لك جعل اللعبة في مود HD.
+						<div class="flex__image">
+							<img src="images/presentation/48.png" alt="" title="خيار HD" />
+						</div>
+						<div class="flex__image">
+							<img
+								class="w-75 image__height"
+								src="images/presentation/63.jpg"
+								alt=""
+								title="خيار HD"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						57- جميع دروع واسلحة الرسمى بكافة اللمعات الخاصة بها.
+					</li>
+					<li class="list__item">
+						58- وجود حماية في كلاينت اللعبة ضد حقن ملفات في مجلد اللعبة الرئيسي.
+					</li>
+					<li class="list__item">
+						59- إضافة اداة تتيح لك جعل الزي الخاص بك دائم الأستخدام.
+						<div class="flex__image">
+							<img
+								class="w-75 image__height"
+								src="images/presentation/49.png"
+								alt=""
+								title="شحن مدة الأزياء"
+							/>
+							<img
+								class="w-75 image__height"
+								src="images/presentation/50.png"
+								alt=""
+								title="شحن مدة الأزياء"
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						60- إضافة نظام الرقم السري الخاص بالشخصية ( لن تستطيع الدخول للشخصية
+						الا بعد ادخال الرقم السري الصحيح ).
+						<div class="flex__image">
+							<img class="w-50" src="images/presentation/51.png" alt="" />
+						</div>
+					</li>
+					<li class="list__item">
+						61- نافذة اختيار الشخصية الرسمية.
+						<div class="flex__image">
+							<img
+								class="w-75 image__height"
+								src="images/presentation/52.png"
+								alt=""
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						62- نافذة إنشاء الشخصية الرسمية.
+						<div class="flex__image">
+							<img
+								class="w-75 image__height"
+								src="images/presentation/53.png"
+								alt=""
+							/>
+						</div>
+					</li>
+					<li class="list__item">63- نظام كيميائي حجر التنين.</li>
+					<li class="list__item">
+						64- إمكانية تدمير اغراضك عن طريق رميها على مواطن سكران. ( لن تستطيع
+						فعل ذلك في حالة استحضار رفيقك ).
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/55.png"
+								alt=""
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						65- حدث Okey-Event.
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/54.png"
+								alt=""
+							/>
+						</div>
+					</li>
+					<li class="list__item"></li>
+					<li class="list__item">
+						66- إمكانية اعطاء ايكونات مميزة للمهام.
+						<div class="flex__image">
+							<img src="images/presentation/56.png" alt="" />
+						</div>
+					</li>
+					<li class="list__item">
+						67- إمكانية تغيير الطقس داخل اللعبة ( ليل/نهار - تساقط الجليد -
+						ارضية ثلجية ).
+						<div class="flex__image">
+							<img src="images/presentation/57.png" alt="" />
+						</div>
+					</li>
+					<li class="list__item">
+						68- إضافة بعض الرقصات الجديدة داخل اللعبة.
+						<div class="flex__image">
+							<img src="images/presentation/58.png" alt="" />
+						</div>
+					</li>
+					<li class="list__item">
+						69- إمكانية مراقبة عمليات التجارة بين اللاعبين ( للحد من السرقات
+						والعمليات المشبوهة ).
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/59.png"
+								alt=""
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						70- إمكانية مراقبة الهمس بين اللاعبين ( للحد من السرقات والعمليات
+						المشبوهة ).
+						<div class="flex__image">
+							<img
+								class="w-50 image__height"
+								src="images/presentation/60.png"
+								alt=""
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						71- جميع ( اسلحة - دروع - تسريحات - ازياء - دواب - مرافقين ) اللعبة
+						الرسمية الى تحديث v20.3.4 وسنحرص دائما على تحديث الكلاينت اولاََ
+						بأول.
+					</li>
+					<li class="list__item">
+						72- سيظهر كود الأداة فى وصف الأداة للمراقب فقط.
+					</li>
+					<li class="list__item">73- أرض الرابطة تعمل بدون مشاكل.</li>
+					<li class="list__item">
+						74- إصلاح كافة المشاكل المتعلقة بنظام حروب الروابط ( لن تعانى من
+						مشاكل فصل نهائياََ في حرب الروابط ).
+					</li>
+					<li class="list__item">
+						75- جميع أسلحة ودروع الرسمى الجديدة تحتوى على اللمعات الخاصة بها.
+					</li>
+					<li class="list__item">
+						76- حل مشكلة الشاشة السوداء و تراكم التأثيرات ( فى حال ترك اللعبة فى
+						الخلفية والرجوع للعبة بعد مدة ستلاحظ تراكم التأثيرات على شخصيتك ومن
+						الممكن ايضا ان تكون شاشة اللعبة قد تحولت الى اللون الأسود مما يؤدي
+						الى تعطل اللعبة تماما ).
+					</li>
+					<li class="list__item">
+						77- سيعمل بف الشامان على كل اعضاء المجموعة.
+						<div class="flex__image">
+							<img
+								class="w-100 image__height"
+								src="images/presentation/63.png"
+								alt=""
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						78- نظام لائحة الترتيب (يتيح لك إمكانية رؤية ترتيب اللاعبين داخل
+						اللعبة).
+						<div class="flex__image">
+							<img
+								class="w-75 image__height"
+								src="images/presentation/64.png"
+								alt=""
+							/>
+						</div>
+					</li>
+					<li class="list__item">
+						79- حدث الدفاع عن السفينة (تستطيع دخول الحدث من خلال الصياد في صخرة
+						التنين الظلامى والدفاع عن السفينة وقتل رأس هيدرا لتحصل على هدايا
+						قيمة).
+						<div class="flex__image">
+							<img class="w-50" src="images/presentation/65.png" alt="" />
+							<img class="w-50" src="images/presentation/66.png" alt="" />
+							<img class="w-50" src="images/presentation/67.png" alt="" />
+						</div>
+						<div class="flex__image">
+							<img class="w-50" src="images/presentation/68.png" alt="" />
+							<img class="w-50" src="images/presentation/69.png" alt="" />
+						</div>
+					</li>
+
+					<li class="list__item">
+						80- سيستطيع قائد المجموعة سحب اعضاء المجموعة.
+					</li>
+
+					<li class="list__item">
+						81- إمكانية اظهار او إخفاء الازياء.
+						<div class="flex__image">
+							<img
+								src="images/presentation/70.png"
+								alt=""
+								class="w-50 image__height"
+							/>
+						</div>
+					</li>
+
+					<li class="list__item">
+						82- إصلاح مشكلة تدبيل متعلقة بأكسير الشمس وأكسير القمر (سيكون هناك
+						استراحة اجبارية فى حالة تفعيل او الغاء تفعيل الأداة).
+					</li>
+
+					<li class="list__item">
+						83- إصلاح مشكلة Memory Leak متعلقة ب مخزن المعدات.
+					</li>
+
+					<li class="list__item">
+						84- إصلاح مشكلة تدبيل مميزات الرفاق (سيكون هناك استراحة اجبارية في
+						حالة استدعاء والغاء استدعاء الرفيق).
+					</li>
+
+					<li class="list__item">
+						85- إصلاح مشكلة تدبيل مميزات الدواب (اصبحت الدابة الأن تعمل كالزى
+						حيث ان مميزاتها ستعمل فقط فى حالة استدعائها وفي حالة خلع زي الدابة
+						من الخانة المخصصه له سيتم حذف كل المميزات الخاصة بالدابة ولن تستطيع
+						خلع الأداه في حالة عدم توافر مساحة في قائمة الجرد).
+					</li>
+
+					<li class="list__item">
+						86- عند الموت سيتم إعادة الاستراحة الأجبارية الخاصة بالمهارات.
+					</li>
+
+					<li class="list__item">
+						87- سد بعض الأكواد التى يستطيع المراقب ذو الصلاحيات المنخفضة الوصول
+						اليها لضمان حماية السيرفر تماماََ.
+					</li>
+
+					<li class="list__item">
+						88- رفع سرعة التحرك الأفتراضية للمراقب لتصبح 500 بدلا من 100.
+					</li>
+
+					<li class="list__item">
+						89- تحسين قائمة الشخصية.
+						<div class="flex__image">
+							<img src="images/presentation/72.png" alt="" class="w-75" />
+						</div>
+					</li>
+
+					<li class="list__item">
+						90- تحسين مهارة الأختفاء للنينجا (لن يظهر اي تأثير على شخصية النينجا
+						تماما عند استخدام مهارة الأختفاء).
+						<div class="flex__image">
+							<img src="images/presentation/74.png" alt="" class="w-75" />
+							<img src="images/presentation/75.png" alt="" class="w-75" />
+						</div>
+					</li>
+				</ul>
+
+				<ul></ul>
+			</section>
+
+			<!-- Updates -->
+			<section class="container-fluid width__control">
+				<div class="intro__flex">
+					<img
+						class="presentation__image"
+						src="images/presentation/Updates.png"
+						alt=""
+					/>
+				</div>
+				<div class="block">
+					<p>
+						سيتم القيام بتحديثات دورية على النسخة لاصلاح المشاكل إن وجدت ولأضافة
+						احدث الانظمة وتطوير النسخة اولا بأول.
+						<br />
+						يمكنك ايضا التواصل معنا فى اي وقت ان اردت اضافة نظام خاص لخادمك او
+						لاجراء اي تعديل على السورس.
+						<br />
+						تعديلات السورس مجانية تماماََ كل ما عليك فعله هو ارسال التعديلات
+						وسيتم تنفيذها خلال 24-48 ساعة كحد أقصى.
+					</p>
+				</div>
+			</section>
+
+			<!-- Videos -->
+			<section class="container-fluid width__control">
+				<div class="intro__flex">
+					<img
+						class="presentation__image"
+						src="images/presentation/videos.png"
+						alt=""
+					/>
+				</div>
+				<div class="block">
+					<p>
+						يمكنك رؤية فيديوهات لبعض انظمة النسخة من خلال الصفحة المخصصة
+						لفيديوهات النسخة او عن طريق
+						<a href="videos.html">الضغط هنا</a>
+					</p>
+				</div>
+			</section>
+
+			<!-- Policy -->
+			<section class="container-fluid width__control">
+				<div class="intro__flex">
+					<img
+						class="presentation__image"
+						src="images/presentation/policy.png"
+						alt=""
+					/>
+				</div>
+				<div class="block">
+					<ul>
+						<li>
+							1- عند شراء النسخة يجب عليك توفير استضافة ليتم تركيب الملفات في
+							مدة اقصاها 24 ساعة.
+						</li>
+						<li>
+							2- يوجد فى النسخة حماية بحيث انه سيتم تفعيل الاي بي الخاص بك في
+							النسخة بعد الشراء وفى حالة تغيير الاي بي يجب عليك اخبارنا أولا حتى
+							يتم تفعيل الاي بي الجديد في مدة اقصاها 24 ساعة.
+						</li>
+						<li>
+							3- بعد الشراء سيتم ارسال رابط تحميل الخاص بالكلاينت اما ما يخص
+							الملفات فكما ذكرنا يجب عليك ارسال بيانات الاستضافة الخاصة بك ليتم
+							تركيبها مجاناََ.
+						</li>
+						<li>
+							4- في حال كنت احد العملاء السابقين للاصدارات السابقة فسيكون سعر
+							الملفات 120$ بدلا من 200$.
+						</li>
+						<li>5- سعر النسخة للعملاء الجدد هو 200$ غير شامل السورس.</li>
+						<li>
+							6- سعر النسخة بالسورس كامل هو 500$ ولن يتوفر دعم فنى فى حال شراء
+							النسخة بالسورس اي انه لن يتم اعطائك التحديثات مستقبلاََ.
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Ending -->
+			<section class="container-fluid width__control">
+				<div class="intro__flex">
+					<img
+						class="presentation__image"
+						src="images/presentation/ending.png"
+						alt=""
+					/>
+				</div>
+				<div class="block">
+					<p>
+						فى النهاية نرجو من الله ان يوفقنا وإياكم الى ما يحبه ويرضاه وان تكون
+						هذه النسخة هى وسيلة مساعدة لاصحاب الخوادم في الوصول لهدفهم والارتقاء
+						بمستوى الخوادم العربية.
+					</p>
+				</div>
+			</section>
+
+			<!-- footer -->
+			<footer>
+				<div class="footer-heading">
+					<h2>Beta ultimate</h2>
+					<p>
+						تهدف Beta Ultimate الى تقديم نسخة ماتين 2 مستقرة تساعدك مباشرة في
+						بدء خادمك الخاص دون القلق من وجود مشاكل او ثغرات خطيرة قد تعيق نجاح
+						خادمك وقد صممت النسخة بدقة شديدة لتجنب حدوث هذه المشاكل مع تجربة
+						كاملة لجميع انظمة النسخة للتأكد من خلوها تماماََ من هذه المشاكل
+						ولمساعدة العملاء في بدء مشروعهم الخاص فوراََ.
+					</p>
+				</div>
+				<ul class="social">
+					<li>
+						<a href="https://www.facebook.com/DaRealAllam/"
+							><i class="bi bi-facebook"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/daReal3allam"
+							><i class="bi bi-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/channel/UCMvkzpz8nstCpKFftlMvB0w"
+							><i class="bi bi-youtube"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://discordapp.com/users/355088621499318272"
+							><i class="bi bi-discord"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://github.com/anglelive23?tab=repositories"
+							><i class="bi bi-github"></i
+						></a>
+					</li>
+				</ul>
+				<ul class="links">
+					<li><a class="button-link" href="index.html">الرئيسية</a></li>
+					<li><a class="button-link" href="files.html">مميزات النسخة</a></li>
+					<li><a class="button-link" href="contact-us.html">تواصل معنا</a></li>
+				</ul>
+				<div class="copyright">
+					<p>2022 Ahmed Allam, ALL RIGHTS RESERVED&copy;</p>
+				</div>
+			</footer>
+		</div>
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>

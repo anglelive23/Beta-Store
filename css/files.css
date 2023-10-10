@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+:root {
+    /* colors */
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-body-darker: #5c5577;
+    --color-border: #ccc;
+    --border-radius: 30px;
+}
+
+body {
+    /* font-family: 'Amiri', serif; */
+    font-family: 'Droid Arabic Naskh', serif;
+    line-height: 30px;
+}
+
+/* navbar */
+.navbar {
+    padding: 0 !important;
+    border: 1px solid white;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* paragraphs */
+p {
+    margin: 0;
+    padding: 1rem 1rem;
+    max-width: 100%;
+    text-align: right;
+    color: var(--color-body-darker);
+}
+
+.paragraph__heading {
+    padding: 0;
+    margin: 0;
+    padding: 1rem 1rem;
+    text-align: right;
+    font-size: large;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+/* blocks */
+.block {
+    padding: 1rem 1rem;
+}
+
+/* Lists */
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.list__item {
+    text-align: right;
+    padding: 1rem 2rem;
+}
+  
+/* files */
+
+/* intro */
+.intro__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation__image {
+    width: 400px;
+    height: 160px;
+    max-width: 100%;
+}
+
+/* presentation */
+.flex__image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.flex__image img {
+    margin-left: 1rem;
+}
+
+.image__height {
+    height: 400px;
+}
+
+/* footer */
+footer {
+    /* margin-top: 4rem; */
+    background-color: rgb(20, 20, 20);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-heading {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-heading h2 {
+    margin: 0;
+    padding: 0 4px;
+    letter-spacing: 9px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    line-height: 5rem;
+    color: var(--color-primary);
+}
+
+.footer-heading p {
+    text-align: center;
+    max-width: 500px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.social,
+.links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.social {
+    padding: 20px;
+}
+
+.social li {
+    margin: 0 1rem;
+}
+
+.social li a i {
+    font-size: 2rem;
+    transition: color .4s ease;
+}
+
+.social a:hover i{
+    color: aqua;
+}
+
+.links {
+    padding: 20px;
+}
+
+.links li {
+    margin: 0 1rem;
+}
+
+.button-link {
+    text-decoration: none;
+    border: 1.3px solid #f0f0f0;
+    padding: 5px 5px;
+    color: white;
+    border-radius: 20px;
+    transition: color 0.5s;
+}
+
+.button-link:hover {
+    color: #27bcda;
+}
+
+.copyright {
+    width: 100%;
+}
+
+.copyright p {
+    color: #cfd2d6;
+    margin: 0;
+    text-align: center;
+    line-height: 0;
+}
+
+/* videos page */
+.pargraph__centered {
+    text-align: center;
+}
+
+.row__video {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+.flex__video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex__details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex__details p {
+    padding: 0;
+}
+
+.border__control {
+    border-radius: 10px;
+}
+
+/* responsive sizing and img scaling */
+@media screen and (max-width: 768px) {
+    /* line height adjustment for lower resolution screens */
+    body {
+        line-height: 20px;
+    }
+    p {
+        line-height: 25px;
+    }
+    /* images sorted from up to down in lower resolution screens */
+    .flex__image {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex__image img {
+        margin-bottom: 1rem;
+    }
+    /* images height adjusted for lower resolution screens */
+    .image__height {
+        height: 150px;
+    }
+    /* footer links adjusted for lower resolution screens */
+    .links {
+        padding: 3;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        width: 320px;
+    }
+}
+
+/* Galaxy s8+ */
+@media screen and (max-width: 360px) {
+    /* footer links adjusted for lower resolution screens */
+    .links a {
+        padding: 1px;
+        font-size: 14px;
+    }
+}
+
+/* controling files page width */
+@media screen and (min-width: 1260px) {
+    /* control the width of the body for high resolution screens */
+    .width__control {
+        max-width: 50% !important;
+    }
+}

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="الموقع الرسمى الخاص بنسخة Beta Ultimate وكل ما يخص النسخة من تحديثات ومميزات."
+		/>
+		<!-- css -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/pricing.css" />
+		<!-- bootstrap icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
+		<!-- animation on scroll -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<title>Beta Ultimate</title>
+		<!-- favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!-- Navbar -->
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+				<div class="container-fluid">
+					<a href="index.html" class="nav-link disabled"
+						><img src="images/logo.png" alt="" width="60" height="60"
+					/></a>
+					<!-- <img src="images/logo.png" alt="" width="60" height="60" /> -->
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active disabled" aria-current="page" href="#"
+									>الرئيسية</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="files.html">مميزات النسخة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="videos.html">فيديوهات النسخة</a>
+							</li>
+							<!-- Drop down list for updates -->
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdown"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									>تحديثات النسخة</a
+								>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li>
+										<a class="dropdown-item disabled" href="#">تحديث #1</a>
+									</li>
+									<li>
+										<a class="dropdown-item disabled" href="#">تحديث #2</a>
+									</li>
+									<li><hr class="dropdown-divider" /></li>
+									<li>
+										<a class="dropdown-item disabled" href="#">تحديث #3</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="contact-us.html"
+									tabindex="-1"
+									aria-disabled="true"
+									>تواصل معنا</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- carousel images -->
+			<div
+				id="carouselExampleDark"
+				class="carousel carousel-dark slide block--skewed-right"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="3"
+						aria-label="Slide 4"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="10000">
+						<img
+							src="images/carousel4.jpg"
+							class="d-inline carousel-img"
+							alt=""
+						/>
+						<div class="carousel-caption d-md-block">
+							<h5 class="slide-label">
+								مرحبا بك فى الموقع الخاص بـ Beta Ultimate
+							</h5>
+							<p class="slide-tooltip">
+								بإمكانك الأضطلاع على مميزات النسخة وما تحتويه من مميزات حصرية.
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="10000">
+						<img
+							src="images/carousel1.jpg"
+							class="d-inline carousel-img"
+							alt=""
+						/>
+						<div class="carousel-caption d-md-block">
+							<h5 class="slide-label">
+								مرحبا بك فى الموقع الخاص بـ Beta Ultimate
+							</h5>
+							<p class="slide-tooltip">
+								يمكنك الأضطلاع على التحديثات الجديدة وموعد صدورها من خلال صفحة
+								التحديثات.
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="10000">
+						<img
+							src="images/carousel2.jpg"
+							class="d-inline carousel-img"
+							alt=""
+						/>
+						<div class="carousel-caption d-md-block">
+							<h5 class="slide-label">
+								مرحبا بك فى الموقع الخاص بـ Beta Ultimate
+							</h5>
+							<p class="slide-tooltip">
+								تستطيع رؤية كل ما يخص النسخة والخطط المختلفة للشراء وايضا طرق
+								التواصل للشراء.
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="10000">
+						<img
+							src="images/carousel3.jpg"
+							class="d-inline carousel-img"
+							alt=""
+						/>
+						<div class="carousel-caption d-md-block">
+							<h5 class="slide-label">
+								مرحبا بك فى الموقع الخاص بـ Beta Ultimate
+							</h5>
+							<p class="slide-tooltip">
+								يمكنك ايضا مشاهدة بعض فيديوهات النسخة وعرض لأهم الانظمة عن طريق
+								صفحة الفيديوهات.
+							</p>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleDark"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleDark"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+			<!-- Promotion -->
+			<header class="block block__header" data-aos="fade-down">
+				<h2>بدءاََ من 200$ امتلك خادم ماتين 2 متكامل</h2>
+				<p>
+					وإن كنت احد عملاء النسخة السابقيين بإمكانك الترقية لأخر اصدار ب 120$
+					فقط.
+				</p>
+			</header>
+
+			<!-- Pricing -->
+			<section class="pricing" data-aos="flip-left">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card mb-5">
+								<div class="card__heading">
+									<h5 class="card-title text-muted text-uppercase text-center">
+										عميل سابق
+									</h5>
+									<h6 class="card-price text-center">$120</h6>
+									<hr />
+								</div>
+								<div class="card-body">
+									<ul class="list__item">
+										<li class="list__item-true">كلاينت ماتين 2</li>
+										<li class="list__item-true">ملفات سيرفر ماتين 2</li>
+										<li class="list__item-true">أداة Dump_proto</li>
+										<li class="list__item-true">أداة تشفير للكلاينت</li>
+										<li class="list__item-true">دعم فنى مجانى</li>
+										<li class="list__item-false">Game Source</li>
+										<li class="list__item-false">Client Source</li>
+										<li class="list__item-false">Dump proto Source</li>
+										<li class="text-muted list__item-true">
+											تحديثات دورية مجانية
+										</li>
+									</ul>
+									<div class="d-grid">
+										<a
+											href="contact-us.html"
+											class="btn btn-primary text-uppercase"
+											>اشترى الأن</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-5">
+								<div class="card__heading">
+									<img class="card__popular" src="/images/popular.svg" alt="" />
+									<h5 class="card-title text-muted text-uppercase text-center">
+										عميل جديد
+									</h5>
+									<h6 class="card-price text-center">$200</h6>
+									<hr />
+								</div>
+								<div class="card-body">
+									<ul class="list__item">
+										<li class="list__item-true">كلاينت ماتين 2</li>
+										<li class="list__item-true">ملفات سيرفر ماتين 2</li>
+										<li class="list__item-true">أداة Dump_proto</li>
+										<li class="list__item-true">أداة تشفير للكلاينت</li>
+										<li class="list__item-true">دعم فنى مجانى</li>
+										<li class="list__item-false">Game Source</li>
+										<li class="list__item-false">Client Source</li>
+										<li class="list__item-false">Dump proto Source</li>
+										<li class="text-muted list__item-true">
+											تحديثات دورية مجانية
+										</li>
+									</ul>
+									<div class="d-grid">
+										<a
+											href="contact-us.html"
+											class="btn btn-primary text-uppercase"
+											>اشترى الأن</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-5">
+								<div class="card__heading">
+									<h5 class="card-title text-muted text-uppercase text-center">
+										الحزمة الكاملة
+									</h5>
+									<h6 class="card-price text-center">$500</h6>
+									<hr />
+								</div>
+								<div class="card-body">
+									<ul class="list__item">
+										<li class="list__item-true">كلاينت ماتين 2</li>
+										<li class="list__item-true">ملفات سيرفر ماتين 2</li>
+										<li class="list__item-true">أداة Dump_proto</li>
+										<li class="list__item-true">أداة تشفير للكلاينت</li>
+										<li class="list__item-true">دعم فنى مجانى</li>
+										<li class="list__item-true">Game Source</li>
+										<li class="list__item-true">Client Source</li>
+										<li class="list__item-true">Dump proto Source</li>
+										<li class="text-muted list__item-false">
+											تحديثات دورية مجانية
+										</li>
+									</ul>
+									<div class="d-grid">
+										<a
+											href="contact-us.html"
+											class="btn btn-primary text-uppercase"
+											>اشترى الأن</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Why us -->
+			<header class="block block__header" data-aos="fade-up">
+				<h2>لماذا نحن ؟</h2>
+				<p>ما الذي يميز ملفات Beta Ultimate عن باقى الملفات.</p>
+			</header>
+
+			<!-- features section -->
+			<section class="block features" >
+				<div class="container-md" data-aos="flip-right">
+					<div class="row">
+						<div class="col-sm-6 col-md-3 card__item">
+							<img class="icon-primary" src="images/icons/icon1.png" alt="" />
+							<h2 class="card-title">ملفات متكاملة</h2>
+							<span class="underline-decoration"></span>
+							<p class="card-desc">
+								حرصنا كل الحرص على ان تكون الملفات متكاملة حيث انك تستطيع بدء
+								خادمك الخاص فورا بعد شراء الملفات.
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-3 card__item">
+							<img class="icon-primary" src="images/icons/icon2.png" alt="" />
+							<h2 class="card-title">استقرار تام</h2>
+							<span class="underline-decoration"></span>
+							<p class="card-desc">
+								نضمن لك استقرار تام للخادم حيث ان الملفات تم تصميمها بدقة شديدة
+								لتجنب المشاكل التى قد تؤثر على استقرار الخادم او الفصل المفاجيء.
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-3 card__item">
+							<img class="icon-primary" src="images/icons/icon3.png" alt="" />
+							<h2 class="card-title">احدث الأنظمة</h2>
+							<span class="underline-decoration"></span>
+							<p class="card-desc">
+								تحتوى الملفات على احداث الأنظمة الأساسية التى يحتاج اليها كل
+								خادم لاعطاء اللاعبين تجربة لعب فريدة.
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-3 card__item">
+							<img class="icon-primary" src="images/icons/icon4.png" alt="" />
+							<h2 class="card-title">دعم فنى مجانى</h2>
+							<span class="underline-decoration"></span>
+							<p class="card-desc">
+								بمجرد شرائك للملفات ستحصل على دعم فنى مجانى تماماََ دون اي
+								تكاليف اضافية, كما يتيح لك الدعم الفنى المجانى امكانية (اضافة -
+								حذف - تعديل) انظمة السورس حسب احتياجك.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 col-md-3 card__item">
+							<img class="icon-primary" src="images/icons/icon5.png" alt="" />
+							<h2 class="card-title">ملفات عربية بالكامل</h2>
+							<span class="underline-decoration"></span>
+							<p class="card-desc">
+								ملفات Beta Ultimate هي ملفات عربية بالكامل حيث ان نسبة تعريب
+								الملفات تتجاوز 95%.
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-3 card__item">
+							<img class="icon-primary" src="images/icons/icon6.png" alt="" />
+							<h2 class="card-title">تحديثات دورية</h2>
+							<span class="underline-decoration"></span>
+							<p class="card-desc">
+								اهم ما يميز نسخة Beta منذ صدورها هو السعي الدائم لتطويرها
+								والأرتقاء بها لمواكبة التحديثات الجديدة لتكون دائما محط اهتمام
+								العملاء, كما ان هذه التحديثات مجانية بالكامل وبمجرد الانتهاء من
+								التحديث يتم اعطائه لكافة العملاء لتطبيقه على خادمهم الخاص.
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-3 card__item">
+							<img class="icon-primary" src="images/icons/icon7.png" alt="" />
+							<h2 class="card-title">سهولة الإدارة</h2>
+							<span class="underline-decoration"></span>
+							<p class="card-desc">
+								صممت الملفات لتوفر لأصحاب الخوادم العربية امكانية ادارة الملفات
+								تماماََ دون الحاجة الى شخص خبير حيث ان إدارة الملفات بالكامل
+								تعمل من خلال أمر واحد فقط كما يمكنك تعديل العديد من مزايا
+								الملفات من خلال ملف gen_setting.py لسهولة إدارة وتعديل الملفات
+								دون الحاجة الى سابق خبرة.
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-3 card__item">
+							<img class="icon-primary" src="images/icons/icon8.png" alt="" />
+							<h2 class="card-title">الأكثر ثقةََ</h2>
+							<span class="underline-decoration"></span>
+							<p class="card-desc">
+								حيث ان مشروع Beta بدء منذ عام 2015 وقام بخدمة اكثر من 100+ عميل
+								على مستوى جميع الأصدارات التى تم انشائها سابقاََ ونسعى دائماََ
+								الى كسب ثقة المزيد من العملاء ومساعدتهم على النجاح للنهوض بمستوى
+								الخوادم العربية الخاصة.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<header class="block block__header" data-aos="fade-up">
+				<h2>عملائنا</h2>
+				<p>تجد هنا قائمة بأسماء الخوادم التى تعمل على ملفاتنا.</p>
+			</header>
+
+			<section class="block features our__clients mb-5">
+				<div class="container-md" data-aos="fade-down">
+					<div class="row">
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<a href="http://spark2.net"><h2 class="card-title">Spark2</h2></a>
+						</div>
+						<!-- <div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 2</h2>
+						</div>
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 3</h2>
+						</div>
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 4</h2>
+						</div>
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 5</h2>
+						</div>
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 6</h2>
+						</div> -->
+					</div>
+					<!-- <div class="row">
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 1</h2>
+						</div>
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 2</h2>
+						</div>
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 3</h2>
+						</div>
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 4</h2>
+						</div>
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 5</h2>
+						</div>
+						<div class="col-6 col-sm-4 col-md-2 card__item card__item-white">
+							<img class="icon-primary" src="images/icons/icon1.svg" alt="" />
+							<h2 class="card-title">Server 6</h2>
+						</div>
+					</div> -->
+				</div>
+			</section>
+
+			<!-- footer -->
+			<footer data-aos="">
+				<div class="footer-heading">
+					<h2>Beta ultimate</h2>
+					<p>
+						تهدف Beta Ultimate الى تقديم نسخة ماتين 2 مستقرة تساعدك مباشرة في
+						بدء خادمك الخاص دون القلق من وجود مشاكل او ثغرات خطيرة قد تعيق نجاح
+						خادمك وقد صممت النسخة بدقة شديدة لتجنب حدوث هذه المشاكل مع تجربة
+						كاملة لجميع انظمة النسخة للتأكد من خلوها تماماََ من هذه المشاكل
+						ولمساعدة العملاء في بدء مشروعهم الخاص فوراََ.
+					</p>
+				</div>
+				<ul class="social">
+					<li>
+						<a href="https://www.facebook.com/DaRealAllam/"
+							><i class="bi bi-facebook"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/daReal3allam"
+							><i class="bi bi-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/channel/UCMvkzpz8nstCpKFftlMvB0w"
+							><i class="bi bi-youtube"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://discordapp.com/users/355088621499318272"
+							><i class="bi bi-discord"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://github.com/anglelive23?tab=repositories"
+							><i class="bi bi-github"></i
+						></a>
+					</li>
+				</ul>
+				<ul class="links">
+					<li><a class="button-link" href="index.html">الرئيسية</a></li>
+					<li><a class="button-link" href="files.html">مميزات النسخة</a></li>
+					<li><a class="button-link" href="contact-us.html">تواصل معنا</a></li>
+				</ul>
+				<div class="copyright">
+					<p>2022 Ahmed Allam, ALL RIGHTS RESERVED&copy;</p>
+				</div>
+			</footer>
+		</div>
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>
